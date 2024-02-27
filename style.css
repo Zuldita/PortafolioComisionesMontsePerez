@@ -1,0 +1,108 @@
+@import url('https://fonts.cdnfonts.com/css/the-wild-breath-of-zelda');
+
+
+body{
+    background-image: url(Imagenes/zelda\ background\ 1\ \(6\).png);
+    background-position: center;
+    background-attachment: fixed;
+}
+header{ 
+    background-image: url(Imagenes/zelda\ background\ 1\ \(4\).png);
+    background-repeat: no-repeat;
+    margin: 10px 0px 10px 0px;
+}
+img{
+    width: 300px;
+}
+.logo-fluid{
+    display: flex;
+    justify-content: center;
+    }
+.titulo1h-fluid{
+    font-size: 60px;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    color: rgb(182, 101, 139);
+    display: flex;
+    justify-content: center;
+}
+.titulo2h-fluid{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.container-fluid{
+    font-size: medium; font-family: 'The Wild Breath of Zelda', sans-serif;
+    color: rgb(33, 37, 77);
+    width: 100%;
+    display: flex;
+    justify-content: row;
+    margin: 50px 50px 50px 50px;
+    width: 300px;
+}
+.caja-fluid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timelapses-fluid{
+    margin-top: 10px 0 10px 0;
+}
+.titulotl-fluid{
+        font-size: medium;
+        color: rgb(33, 37, 77);
+        font-family: 'The Wild Breath of Zelda', sans-serif;
+}
+.prefooter-fluid{
+    background-image: url(Imagenes/zelda\ background\ 1\ text\ \(9\).png);
+    margin: 10px 0 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sobremi-fluid{
+    font-size: 50px;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    color: rgb(22, 49, 99);
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+.text-fluid{
+    font-size: 40;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(33, 37, 77);
+    display: flex;
+    flex-direction: center;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin: 10px 0 10px 0;
+}
+footer{
+    background-image: url(Imagenes/zelda\ background\ 1\ \(4\).png);
+}
+.footer2-fluid{
+    font-size: 18px;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.titulocontacto-fluid{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 30px;
+    font-family: 'The Wild Breath of Zelda', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.correo-fluid{    
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+footer ul li{
+    margin: 10px;
+}
